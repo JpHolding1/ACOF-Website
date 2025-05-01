@@ -1,0 +1,130 @@
+/* Base Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f7f9fc;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #002855;
+  }
+  
+  .text-primary {
+    color: #0d6efd !important;
+  }
+  
+  .bg-primary {
+    background-color: #0d6efd !important;
+  }
+  
+  /* Navigation */
+  .navbar {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #002855 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    background-color: #01427a;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #0b2c4d 0%, #1f6aa5 50%, #63a4ff 100%);
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+    background-size: 400% 400%;
+    animation: metallicShift 15s ease infinite;
+  }
+  
+  @keyframes metallicShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Cards */
+  .card {
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+  }
+  
+  /* Image Placeholder */
+  .image-placeholder {
+    border-radius: 0.25rem;
+    background-color: #e9ecef;
+  }
+  
+  /* Tables */
+  .table {
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 3rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 3rem 0;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  /* Buttons */
+  .btn-outline-primary {
+    border-color: #002855;
+    color: #002855;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #002855;
+    color: white;
+  }
+  
+  /* Beige Gradient Metallic Background */
+  .bg-gradient-beige {
+    background: linear-gradient(to right, #d8a976, #f5d7b3, #fff4e2);
+    background-size: 400% 400%;
+    animation: metallicBeigeShift 15s ease infinite;
+  }
+  
+  @keyframes metallicBeigeShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
